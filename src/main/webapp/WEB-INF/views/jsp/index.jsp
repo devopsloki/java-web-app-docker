@@ -48,7 +48,7 @@
 
 	<hr>
 	<footer>
-		<p>&copy; Mithun Technologies 2019</p>
+		<p>&copy; thanks and regards lokesh m</p>
 	</footer>
 </div>
 
