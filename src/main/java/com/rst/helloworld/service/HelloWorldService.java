@@ -14,7 +14,7 @@ public class HelloWorldService {
 
 		logger.debug("getDesc() is executed!");
 
-		return "All Docker Demo with image and container Example";
+		return "a glance at Docker Demo with image and container Example";
 
 	}
 
@@ -25,7 +25,7 @@ public class HelloWorldService {
 		if(StringUtils.isEmpty(name)){
 			return "Hello Team";
 		}else{
-			return "Hello " + name;
+			return "Have " + name;
 		}
 		
 	}
