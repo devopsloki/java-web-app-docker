@@ -14,7 +14,7 @@ public class HelloWorldService {
 
 		logger.debug("getDesc() is executed!");
 
-		return "a glance at Docker Demo with image and container Example";
+		return "again, please have a glance at Docker Demo with image and container Example";
 
 	}
 
