@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Maven + Spring MVC</title>
+<title>Lokesh Docker Demo</title>
 
 <spring:url value="/resources/core/css/hello.css" var="coreCss" />
 <spring:url value="/resources/core/css/bootstrap.min.css" var="bootstrapCss" />
@@ -40,15 +40,15 @@
 
 	<div class="row">
 		<div class="col-md-8">
-			<h2>Welcome To RIL</h2>
-			<h3>RELIANCE JIO</h3>
+			<h2>Welcome To Demo</h2>
+			<h3>Everestek</h3>
 		</div>	
 	</div>
 
 
 	<hr>
 	<footer>
-		<p>&copy; thanks and regards lokesh m</p>
+		<p>&copy; Thanks and Regards Lokesh M</p>
 	</footer>
 </div>
 
