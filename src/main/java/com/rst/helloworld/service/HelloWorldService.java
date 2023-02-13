@@ -14,7 +14,7 @@ public class HelloWorldService {
 
 		logger.debug("getDesc() is executed!");
 
-		return "Maven + Spring MVC + Jenkins + Docker Example";
+		return "Lokesh Docker Demo with image and container Example";
 
 	}
 
@@ -23,7 +23,7 @@ public class HelloWorldService {
 		logger.debug("getTitle() is executed! $name : {}", name);
 
 		if(StringUtils.isEmpty(name)){
-			return "Hello Docker";
+			return "Hello Team";
 		}else{
 			return "Hello " + name;
 		}
