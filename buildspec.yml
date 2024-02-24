@@ -1,0 +1,11 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - mvn --version
+      - mvn clean package
+      - aws ecr get-login-password --region ap-south-1 | docker login --username AWS --password-stdin 551271391907.dkr.ecr.ap-south-1.amazonaws.com
+      - docker build -t bluegreen .
+      - docker tag bluegreen:latest 551271391907.dkr.ecr.ap-south-1.amazonaws.com/bluegreen:latest
+      - docker push 551271391907.dkr.ecr.ap-south-1.amazonaws.com/bluegreen:latest
